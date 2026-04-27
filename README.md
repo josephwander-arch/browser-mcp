@@ -30,8 +30,8 @@ This crate is a component of **CPC (Copy Paste Compute)** — a multi-agent AI o
 
 | Repo | Purpose |
 |------|---------|
-| [hands](https://github.com/josephwander-arch/hands) | Browser + UI automation MCP server (consumes this crate) |
-| [cpc-paths](https://github.com/josephwander-arch/cpc-paths) | Portable path discovery for CPC servers |
+| [hands](https://github.com/AIWander/hands) | Browser + UI automation MCP server (consumes this crate) |
+| [cpc-paths](https://github.com/AIWander/cpc-paths) | Portable path discovery for CPC servers |
 
 ## Usage
 
@@ -39,7 +39,7 @@ This is an internal shared library crate. It is not published to crates.io. Cons
 
 ```toml
 [dependencies]
-browser-mcp = { git = "https://github.com/josephwander-arch/browser-mcp", tag = "v0.1.0" }
+browser-mcp = { git = "https://github.com/AIWander/browser-mcp", tag = "v0.1.0" }
 ```
 
 ## Versioning
