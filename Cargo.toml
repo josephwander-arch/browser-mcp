@@ -21,7 +21,7 @@ serde_json = "1"
 chromiumoxide = { version = "0.5", features = ["tokio-runtime"], default-features = false }
 futures = "0.3"
 base64 = "0.21"
-reqwest = { version = "0.11", features = ["native-tls", "json"], default-features = false }
+reqwest = { version = "0.13", features = ["native-tls", "json"], default-features = false }
 scraper = "0.18"
 image = { version = "0.24", default-features = false, features = ["jpeg"] }
 vision-core = { git = "https://github.com/AIWander/vision-core", tag = "v0.1.0" }
