@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.2 - 2026-04-29
+
+### Changed
+- ci: bump actions/checkout from v4 to v5 (Node.js 20 deprecation)
+
 ## v0.1.1 - 2026-04-16
 
 ### Fixed
